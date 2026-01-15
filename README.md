@@ -33,4 +33,4 @@
 
 ---
 ## Special thanks
-### I would like to give a special thanks to [devilishlyney](https://github.com/devilishlyney) for motivating me and sticking with me through this 
+### I would like to give a special thanks to [devilishlyney](https://github.com/devilishlyney) for emotional support 
