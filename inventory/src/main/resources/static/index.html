@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous Crafting System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Forge Workshop</h1>
+
+    <div class="section">
+        <h3>Gather Raw Materials</h3>
+        <button onclick="collect('wood')">Gather Wood</button>
+        <button onclick="collect('steel')">Gather Steel</button>
+    </div>
+
+    <div class="section">
+        <h3>Refinery (Intermediates)</h3>
+        <button onclick="startProcessing('plank')">Make Planks</button>
+        <button onclick="startProcessing('stick')">Make Sticks</button>
+        <button onclick="startProcessing('ingot')">Smelt Ingot</button>
+    </div>
+
+    <div class="section">
+        <h3>Crafting Station</h3>
+        <button class="craft-btn" onclick="startCrafting('sword')">Craft Sword</button>
+        <button class="craft-btn" onclick="startCrafting('pick-axe')">Craft Pick-Axe</button>
+    </div>
+
+    <div class="section">
+        <h3>Activity Journal</h3>
+        <div id="journal">
+            <p class="log-entry">System ready. Waiting for input...</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/logic.js"></script>
+</body>
+</html>
